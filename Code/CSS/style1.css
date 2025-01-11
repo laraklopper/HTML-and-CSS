@@ -1,6 +1,7 @@
 /*body*/
 #body {
     display: flex;
+    justify-content: center;
     background-color: #404040;
     width: 100%;
     margin: 0px;
