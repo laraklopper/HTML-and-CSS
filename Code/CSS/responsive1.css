@@ -1,0 +1,95 @@
+/*media queries*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #head1 {
+        font-size: 22px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+    #header {
+        padding: 0px;
+    }
+    .heading{
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+        display: inline;  
+    }
+    /*Navigation Bar*/
+    #navbar {
+        display: block;
+        float: right;
+        margin: 0%;
+        padding: 0px;
+        width: 20%;
+    }
+    nav ul li {
+        display: block;
+        text-align: left;
+        list-style-type: none;
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+    }
+    li a {
+        font-size: 14px;
+    }
+    .para {
+        font-size: 14px;
+    }
+    .para3{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    #head1 {
+        font-family: 'Alkatra', cursive;
+        font-size: 22px;
+    }
+/*Navigation bar*/
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    /*content*/
+    .content {
+        width: 100%;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    /*image 1*/
+    .image1 {
+        display: none;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+ /*responsive-image*/
+    .responsive-image {
+        display: block;
+        width: 100%;
+    }
+    #image2 {
+        display: block;
+        width: 100%;
+    }
+    .para3{
+        text-align: center;
+        font-size: 14px;
+    }
+}

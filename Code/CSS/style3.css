@@ -1,0 +1,175 @@
+/*body*/
+#body {
+    display: flex;
+    background-color:#404040;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*container*/
+.container {
+    display: grid;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+/*header*/
+#header {
+    width: 100%;
+    padding: 0px;
+    background: linear-gradient(to bottom right, #818c48 11%, #a4d246 79%);
+    margin: 0px;
+}
+
+.mainheading{
+    padding: 15px;
+    width: 60%;
+    display: block;
+    margin: 0px;
+}
+#head1 {
+    text-align: center;
+    font-family: "Alkatra", cursive;
+    font-weight: bold;
+    color: #006600;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    font-size: 32px;
+}
+/*Navigation Bar*/
+#navbar {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    color: #993909;
+}
+
+li a:hover {
+    background-color: #C4A44D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*image3*/
+.image3 {
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+#img3 {
+    width: 100%;
+    padding: 0px;
+}
+/*section1*/
+/*row2*/
+#section1 {
+    margin-top: 10px;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+    width: 100%;
+}
+/*row*/
+/*paragraph*/
+.paragraph {
+    margin-right: 0px;
+    width: 60%;
+    padding: 20px;
+}
+
+.para {
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+.head{
+    padding-left: 20px;
+    margin: 0px;
+}
+/*image4*/
+.image4 {
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#img4 {
+    width: 100%;
+    display: inline;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.h3 {
+    color: #344511;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+/*footer*/
+#footer {
+    background: linear-gradient(to bottom right, #818c48 11%, #a4d246 79%);
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*image5*/
+.image5 {
+    width: 53%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+        
+}
+#img5{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+}
+/*image6*/
+.image6{
+    width: 47%;
+    margin: 0px;
+    padding: 0px;
+        
+}
+#img6{
+    width: 100%;
+    height: auto;
+}

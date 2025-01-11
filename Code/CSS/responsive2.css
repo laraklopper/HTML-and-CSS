@@ -1,0 +1,132 @@
+/*Media Queries*/
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .heading {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #head1 {
+        font-size: 22px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    /*Navigation Bar*/
+    #navbar {
+        display: block;
+        float: right;
+        margin: 0%;
+        padding: 0px;
+        width: 20%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: left;
+        list-style-type: none;
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    /*paragraph*/
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .para {
+        font-size: 14px;
+    }
+    .list-item {
+        font-size: 14px;
+    }
+    .th {
+        font-size: 14px;
+    }
+    .td {
+        font-size: 14px;
+    }
+    .h3 {
+        font-size: 18px;
+    }
+    .h4 {
+        font-size: 16px;
+
+    }
+    .ref {
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #head1 {
+        font-family: 'Alkatra', cursive;
+        font-size: 22px;
+    }
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    li a {
+        font-size: 14px;
+    }
+
+    /*paragraph*/
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .para {
+        font-size: 14px;
+    }
+    /*list*/
+    .list-item {
+        font-size: 14px;
+    }
+    /*table*/
+    .th {
+        font-size: 14px;
+    }
+    .td {
+        font-size: 14px;
+    }
+    .h3 {
+        font-size: 18px;
+    }
+    .h4 {
+        font-size: 16px;
+    }
+    .ref {
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    /*image2*/
+    .image2 {
+        display: none;
+    }
+
+    #img2 {
+        display: none;
+    }
+ /*sources*/   
+    .sources {
+        width: 50%;
+    }
+/*links*/
+    .links {
+        width: 50%;
+    }
+}

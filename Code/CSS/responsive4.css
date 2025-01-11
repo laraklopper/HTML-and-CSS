@@ -1,0 +1,107 @@
+/*Media Queries*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #header {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .heading {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #head1 {
+    font-size: 22px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    /*Navigation Bar*/
+    #navbar {
+        display: block;
+        float: right;
+        margin: 0%;
+        padding: 0px;
+        width: 20%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: left;
+        list-style-type: none;
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    /*section2*/
+    .para2 {
+        text-align: justify;
+        font-size: 14px;
+        font-family: 'Acme', sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+
+    .h3 {
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /*form*/
+    .form {
+        width: 100%;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px) {
+    #header {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .heading {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    #head1 {
+        font-size: 22px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .para2 {
+        text-align: justify;
+        font-size: 14px;
+        font-family: 'Acme', sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+/*Navigation Bar*/
+    li a {
+        font-size: 14px;
+    }
+
+    
+
+    .label {
+        font-size: 14px;
+    }
+}
